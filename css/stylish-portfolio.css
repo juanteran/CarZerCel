@@ -210,7 +210,7 @@ hr.small {
     opacity: 0.8;
 }
 
-/* Call to Action */
+/* Formulario */
 
 .call-to-action {
     padding: 50px 0;
@@ -218,6 +218,21 @@ hr.small {
 
 .call-to-action .btn {
     margin: 10px;
+}
+
+form{
+    color: black;
+}
+form input{
+    border-radius: 6px;
+    border-color: inherit;
+}
+
+#submit{
+    background-color: aqua;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
 }
 
 /* Map */
@@ -248,3 +263,4 @@ footer {
   bottom: 5px;
   right: 5px;
 }
+
