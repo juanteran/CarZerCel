@@ -198,9 +198,9 @@ hr.small {
     padding: 50px 0;
 }
 
-.portfolio-item {
-    margin-bottom: 30px;
-}
+
+
+
 
 .img-portfolio {
     margin: 0 auto;
@@ -264,3 +264,52 @@ footer {
   right: 5px;
 }
 
+
+.perfil {
+    filter: sepia(20%);
+    height: 360px;
+    width: 240px;
+}
+
+.img-responsive {
+    filter: contrast(1.5);
+    height: 333px;
+    width: 500px;
+}
+
+@media only screen and (min-width: 140px) {
+    .img-responsive{
+        height: 167px;
+        width: 250px;
+    }
+    .perfil {
+        filter: sepia(40%);
+        height: 240px;
+        width: 160px;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    .img-responsive{
+        height: 200px;
+        width: 325px;
+    }
+    .perfil {
+        filter: sepia(30%);
+        height: 300px;
+        width: 200px;
+    }
+}
+
+@media only screen and (min-width: 970px) {
+    .img-responsive{
+        height: 333px;
+        width: 500px;
+    }
+    
+    .perfil {
+        filter: sepia(20%);
+        height: 360px;
+        width: 240px;
+    }
+}
